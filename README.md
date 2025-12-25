@@ -22,26 +22,25 @@ This research project analyzes household survey data from Tehran to understand t
 ### Major Poverty Risk Factors (Increasing Poverty)
 
 | Factor | Odds Ratio | Marginal Effect | Interpretation |
-|--------|------------|-----------------|----------------|
-| **Illiteracy** | 6.78x | +27.1% | Illiterate household heads have **6.8 times higher odds** of poverty |
-| **Less than Diploma** | 2.70x | +14.1% | Under-diploma education increases poverty odds by 170% |
-| **Unemployed Head** | 2.54x | +13.2% | Unemployment increases poverty probability by 13.2 percentage points |
-| **Housekeeper Head** | 2.50x | +13.0% | Households headed by housekeepers face 2.5x poverty risk |
-| **High Dependency Ratio** | 1.66x | +7.2% | Each unit increase in employment dependency ratio increases poverty by 7.2% |
+| :--- | :--- | :--- | :--- |
+| **Illiterate Head** | 5.50x | +24.8% | Illiterate household heads have **5.5 times higher odds** of being in poverty. |
+| **Home Owner** | 4.46x | +21.8% | This likely identifies "asset-rich, income-poor" households, a key finding explained in the GAM analysis. |
+| **Unemployed Head** | 2.83x | +15.2% | Unemployment nearly triples the odds of poverty compared to being employed. |
+| **Tenant** | 2.52x | +13.5% | Renting is also a significant risk factor compared to the 'Other' tenure category. |
+| **Under-Diploma Education**| 2.46x | +13.1% | Lacking a high school diploma more than doubles the poverty odds. |
+| **High Dependency Ratio** | 1.68x | +7.5% | A higher ratio of non-employed to employed members significantly increases poverty risk. |
 
 ### Major Protective Factors (Reducing Poverty)
 
 | Factor | Odds Ratio | Marginal Effect | Interpretation |
-|--------|------------|-----------------|----------------|
-| **Master's/PhD Education** | 0.15x | -26.8% | Advanced degrees reduce poverty odds by **85%** |
-| **Bachelor's Degree** | 0.39x | -13.5% | Bachelor's education reduces poverty probability by 13.5% |
-| **Home Ownership (Other)** | 0.24x | -20.5% | Certain ownership types reduce poverty odds by 76% |
-| **Urban Residence** | 0.37x | -14.1% | Urban households have 63% lower poverty odds than rural |
-| **Imputed Rent Income** | 0.36x | -14.6% | Higher imputed rent (home value) strongly reduces poverty |
-| **Tenant Status** | 0.59x | -7.5% | Renting reduces poverty compared to other arrangements |
+| :--- | :--- | :--- | :--- |
+| **Master's/PhD Education**| 0.15x | -27.7% | An advanced degree reduces poverty odds by **85%**. |
+| **Bachelor's Degree** | 0.33x | -16.3% | A bachelor's degree reduces the odds of poverty by 67%. |
+| **Imputed Rent Share** | 0.35x | -15.4% | A higher share of imputed rent (indicating higher home value) is strongly protective. |
+| **Urban Residence** | 0.40x | -13.2% | Urban households have **60% lower odds** of poverty than rural ones. |
+| **Head Age > 70** | 0.31x | -17.2% | The oldest age group has significantly lower poverty odds compared to the 40-50 reference group. |
 
 ### Model Performance
-
 #### Logistic Regression Models
 - **Pseudo R² (McFadden's)**: 0.295 - 0.297
 - **Sample Size**: 4,275 households
